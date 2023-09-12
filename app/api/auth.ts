@@ -20,7 +20,7 @@ function parseApiKey(bearToken: string) {
 
   return {
     accessCode: isOpenAiKey ? "" : token.slice(ACCESS_CODE_PREFIX.length),
-    apiKey: isOpenAiKey ? token : "",
+    apiKey: isOpenAiKey ? token : "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",
   };
 }
 
